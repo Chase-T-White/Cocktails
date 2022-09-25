@@ -1,0 +1,17 @@
+/* NO COCKTAILS MESSAGE STYLES */
+
+.no-cocktails {
+  text-transform: capitalize;
+  font-size: 2.4rem;
+  letter-spacing: 0.2rem;
+}
+
+/* COCKTAILS LIST CONTAINER STYLES */
+
+.cocktail-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  column-gap: 2rem;
+  row-gap: 4rem;
+  width: 60%;
+}

@@ -1,0 +1,45 @@
+/* COCKTAIL CARD STYLES */
+
+.card {
+  background-image: radial-gradient(
+    circle farthest-side at -5% 110%,
+    var(--clr-dark-shade),
+    var(--clr-dark),
+    var(--clr-dark-tint-1),
+    var(--clr-dark-tint-2)
+  );
+  color: var(--clr-white);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0.4rem 0.4rem 0.2rem var(--clr-accent);
+  font-size: 1.6rem;
+}
+
+.drink-img {
+  width: 100%;
+  height: 30rem;
+  object-fit: cover;
+}
+
+.drink-info {
+  padding: 1.5rem 1.5rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.drink-name {
+  font-size: 2.4rem;
+  letter-spacing: 0.15rem;
+  color: var(--clr-primary-tint);
+}
+
+.glass {
+  letter-spacing: 0.05rem;
+  text-transform: capitalize;
+}
+
+.drink-type {
+  font-size: 1.2rem;
+  color: var(--clr-white-tint);
+}

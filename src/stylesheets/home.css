@@ -1,0 +1,68 @@
+/* HOME / ABOUT / CONTACT PAGE STYLES */
+
+.form {
+  background-color: var(--clr-white);
+  display: flex;
+  flex-direction: column;
+  width: 55rem;
+  height: 10rem;
+  padding: 0 4rem;
+  justify-content: center;
+  gap: 1rem;
+  font-size: 1.6rem;
+  border-radius: 0.5rem;
+  box-shadow: 0 1rem 0.5rem 0.2rem var(--clr-secondary);
+  margin-bottom: 8rem;
+}
+
+label {
+  text-transform: capitalize;
+  color: var(--clr-primary);
+  font-weight: bold;
+  letter-spacing: 0.1rem;
+}
+
+input {
+  border: none;
+  background-color: var(--clr-primary-tint);
+  height: 2.5rem;
+  font-size: 1.6rem;
+  padding-left: 1rem;
+  outline: none;
+  text-transform: capitalize;
+  letter-spacing: 0.1rem;
+}
+
+input::content {
+  font-size: 2rem;
+}
+
+.underline {
+  width: 100%;
+  text-align: center;
+  border-bottom-width: 0.3rem;
+  border-bottom-style: solid;
+  border-image: linear-gradient(
+      to right,
+      transparent,
+      var(--clr-accent),
+      transparent
+    )
+    1;
+  padding-bottom: 1rem;
+  margin-bottom: 5.2rem;
+}
+
+.list-header {
+  font-size: 4.8rem;
+  padding-bottom: 1rem;
+  letter-spacing: 0.3rem;
+  text-shadow: 0 0 1rem var(--clr-white);
+}
+
+.about-text {
+  width: 50rem;
+  font-size: 2.4rem;
+  letter-spacing: 0.15rem;
+  margin-bottom: 2rem;
+}

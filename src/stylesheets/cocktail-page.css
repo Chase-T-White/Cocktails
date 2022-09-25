@@ -1,0 +1,98 @@
+/* COCKTAIL PAGE STYLES */
+
+.cocktail {
+  height: auto;
+}
+
+.cocktail-info {
+  background-image: radial-gradient(
+    circle farthest-side at 50%,
+    var(--clr-dark-shade),
+    var(--clr-dark),
+    var(--clr-dark-tint-1)
+  );
+  display: flex;
+  width: 95rem;
+  height: clamp(55rem, 55rem, auto);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0.4rem 0.4rem 0.2rem var(--clr-accent);
+}
+
+.page-img {
+  width: 50rem;
+  height: auto;
+}
+
+.info-container {
+  padding: 3rem;
+  width: 100%;
+}
+
+.underline-drink-page {
+  width: 100%;
+  text-align: Left;
+  border-bottom-width: 0.3rem;
+  border-bottom-style: solid;
+  border-image: linear-gradient(to right, var(--clr-accent), transparent) 1;
+  padding-bottom: 1rem;
+  margin-bottom: 5.2rem;
+}
+
+.page-glass {
+  font-size: 1.8rem;
+}
+
+.page-drink-type {
+  margin-bottom: 2rem;
+}
+
+.ingredients-list {
+  display: flex;
+  gap: 3rem;
+  font-size: 1.4rem;
+  margin-bottom: 2rem;
+}
+
+.ingredients {
+  color: var(--clr-primary-tint);
+}
+
+.ingredient {
+  margin-bottom: 0.25rem;
+}
+
+.ingredient:last-child {
+  margin-bottom: 0;
+}
+
+.measurement {
+  margin-bottom: 0.25rem;
+}
+
+.measurement:last-child {
+  margin-bottom: 0;
+}
+
+.wrapper {
+  margin-bottom: 2rem;
+}
+
+.instruction-header {
+  color: var(--clr-primary);
+  font-size: 1.2rem;
+}
+
+.instructions {
+  font-size: 1.6rem;
+}
+
+.page-btn {
+  font-size: 1.2rem;
+  padding: 0.5rem 3rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  letter-spacing: 0.15rem;
+}
