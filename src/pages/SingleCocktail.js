@@ -76,18 +76,16 @@ const SingleCocktail = () => {
   if (!cocktail) {
     return (
       <section className='section'>
-        <h2>Oops! Drink does not exist...</h2>
-        <Link to='/' className='btn sm-btn'>
+        <h1 className='error-msg'>Oops! Drink does not exist...</h1>
+        <Link to='/' className='btn lrg-btn'>
           Back Home
         </Link>
       </section>
     );
   }
 
-  console.log(cocktail);
-
   return (
-    <section className='section cocktail'>
+    <section className='cocktail'>
       <article className='cocktail-info'>
         <img
           src={cocktail[0].image}

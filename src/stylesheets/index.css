@@ -4,6 +4,7 @@
 @import "cocktail-list";
 @import "cocktail";
 @import "cocktail-page";
+@import "ingredientsInfo";
 
 /* GENERAL STYLES */
 
@@ -52,7 +53,7 @@ body {
 }
 
 .section {
-  width: clamp(80%, 80%, 100%);
+  width: 80%;
   margin: 12rem auto;
   display: flex;
   flex-direction: column;
@@ -60,7 +61,7 @@ body {
 }
 
 .btn {
-  padding: 0.5rem 3rem;
+  padding: 0.5em 3em;
   background-color: var(--clr-secondary);
   border-radius: 0.5rem;
   color: var(--clr-white);
@@ -76,4 +77,19 @@ body {
 .btn:hover {
   background-color: var(--clr-secondary-shade);
   box-shadow: 0 0.1rem 0.5rem 0.2rem var(--clr-white);
+}
+
+.lrg-btn {
+  font-size: 1.6rem;
+}
+
+.error-msg {
+  font-size: 4.8rem;
+  margin-bottom: 2.4rem;
+}
+
+@media (max-width: 340px) {
+  .section {
+    width: 100%;
+  }
 }
