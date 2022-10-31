@@ -6,7 +6,7 @@ const handleSubmit = (e) => {
 };
 
 const IngredientsPage = () => {
-  const { isIngredientInfoError, singleIngredient } = useGlobalContext();
+  const { singleIngredient } = useGlobalContext();
   const url = window.location.href.split("/");
   // const {
   //   strIngredient: name,
