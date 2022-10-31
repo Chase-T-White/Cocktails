@@ -5,7 +5,6 @@ import About from "./pages/About";
 import IngredientsPage from "./pages/IngredientsPage";
 import SingleCocktail from "./pages/SingleCocktail";
 import Error from "./pages/Error";
-import Ingredients from "./components/Ingredients";
 
 function App() {
   return (
