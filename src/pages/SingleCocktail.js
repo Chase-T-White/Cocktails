@@ -111,7 +111,7 @@ const SingleCocktail = () => {
             <div className='measurements'>
               {cocktail[0].measurements.map((measurement, index) => {
                 if (measurement === null) {
-                  return;
+                  return null;
                 }
                 return (
                   <h5 key={index} className='measurement'>

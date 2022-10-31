@@ -63,7 +63,7 @@ const AppProvider = ({ children }) => {
       typeSearch = "filter.php?i=";
     }
     fetchDrinks(typeSearch);
-  }, [search, fetchDrinks]);
+  }, [search, fetchDrinks, searchTab]);
 
   const fetchIngredients = async () => {
     setIsIngredientError(false);
