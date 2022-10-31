@@ -13,6 +13,10 @@
   overflow: hidden;
   box-shadow: 0.4rem 0.4rem 0.2rem var(--clr-accent);
   font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 35rem;
 }
 
 .drink-img {

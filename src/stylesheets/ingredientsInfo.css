@@ -1,0 +1,29 @@
+.ingredients-info {
+  background-image: radial-gradient(
+    circle farthest-side at 50%,
+    var(--clr-dark-shade),
+    var(--clr-dark),
+    var(--clr-dark-tint-1)
+  );
+  display: flex;
+  width: 100vw;
+  max-width: 120rem;
+  height: clamp(55rem, 55rem, auto);
+  border-radius: 0.5rem;
+  overflow: hidden;
+  box-shadow: 0.4rem 0.4rem 0.2rem var(--clr-accent);
+  flex-direction: column;
+  color: var(--clr-white);
+  padding: 4rem 4rem;
+}
+
+.description-header {
+  color: var(--clr-primary);
+  font-size: 1.8rem;
+  margin-bottom: 1.6rem;
+}
+
+.description-text {
+  font-size: 1.6rem;
+  line-height: 2.5rem;
+}

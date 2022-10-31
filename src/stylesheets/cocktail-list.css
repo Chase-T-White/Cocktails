@@ -10,8 +10,20 @@
 
 .cocktail-list {
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(auto-fill, minmax(25rem, 1fr));
   column-gap: 2rem;
   row-gap: 4rem;
-  width: 60%;
+  width: 100%;
+  max-width: 120rem;
+}
+
+@media (max-width: 650px) {
+  .cocktail-list {
+    width: 80%;
+  }
+}
+@media (max-width: 450px) {
+  .cocktail-list {
+    width: 100%;
+  }
 }
